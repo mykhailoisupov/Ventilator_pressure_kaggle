@@ -474,25 +474,3 @@ Ranked next steps:
    property of the task rather than missing information. Both models already have the integral; the
    tree from `v_est`, the network from its cell state.
 
----
-
-## Appendix A — AI tool usage
-
-*Required by the course AI policy: disclose all AI assistance with prompts, responses or transcripts.*
-
-*TO BE COMPLETED — list the tools used, what they were used for, and attach the transcript or chat
-links.*
-
-## Appendix B — Individual contribution
-
-*TO BE COMPLETED.*
-
-## Appendix C — Reproducing
-
-```bash
-# notebook.ipynb runs top to bottom on Kaggle with the competition attached
-# Settings -> Accelerator -> GPU T4 x1
-```
-
-Key settings: `SEED = 42`, `N_FOLDS = 5`. The fold assignment is derived once from the seed and
-reused by every model, so the tree, the network and the ensemble are measured on the same split.
